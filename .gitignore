@@ -4,3 +4,4 @@ pub/static/frontend/Magento/luma/en_US_src
 **/*.map
 pub/static/frontend/Magento/luma/en_US/bundles
 pub/static/frontend/Magento/luma/en_US/build.txt
+node_modules
