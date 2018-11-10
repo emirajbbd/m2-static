@@ -1,0 +1,15 @@
+{
+  "name": "pub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "bash build.sh en_US"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "requirejs": "2.3.6"
+  }
+}
