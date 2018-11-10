@@ -1,1 +1,6 @@
 .idea
+pub/static/frontend/Magento/luma/en_US_src
+**/*.src.js
+**/*.map
+pub/static/frontend/Magento/luma/en_US/bundles
+pub/static/frontend/Magento/luma/en_US/build.txt
