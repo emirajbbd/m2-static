@@ -6,7 +6,6 @@ VENDOR="Magento"
 THEME="luma"
 BUILD_FILE="build.json"
 BASE_DIR="$PWD"
-PERF_OPTIMIZE=${OPTIMIZE:-uglify}
 
 bundle () {
     RELEASE_DIRECTORY="pub/static/frontend/$VENDOR/$THEME/$1_src"
@@ -27,8 +26,7 @@ bundle () {
 
     r_js -o $BUILD_FILE \
         baseUrl=${BASE_DIR}/${RELEASE_DIRECTORY} \
-        dir=${BASE_DIR}/${DEST_DIRECTORY} \
-        optimize=${PERF_OPTIMIZE}
+        dir=${BASE_DIR}/${DEST_DIRECTORY}
 }
 
 for var in "$@"

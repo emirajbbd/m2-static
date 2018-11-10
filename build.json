@@ -140,7 +140,8 @@
       "jquery"
     ],
     "jquery/jquery-migrate": [
-      "jquery"
+      "jquery",
+      "jquery/jquery.cookie"
     ],
     "jquery/jquery-storageapi": {
       "deps": [
@@ -198,7 +199,7 @@
     "temandoShippingRatesValidationRules": "Temando_Shipping/js/model/shipping-rates-validation-rules/temando",
     "temandoShippingRatesValidator": "Temando_Shipping/js/model/shipping-rates-validator/temando",
     "temandoNewAddressRateProcessor": "Temando_Shipping/js/model/shipping-rate-processor/new-address",
-    "text": "mage/requirejs/text",
+    "text": "Acme_Build/js/text",
     "jquery/validate": "jquery/jquery.validate",
     "jquery/hover-intent": "jquery/jquery.hoverIntent",
     "jquery/file-uploader": "jquery/fileUploader/jquery.fileupload-fp",
